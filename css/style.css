@@ -1,0 +1,165 @@
+*
+        {
+            font-family: 'Playfair Display', serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 100,
+            'GRAD' 0,
+            'opsz' 48;
+            color: #faf0c6;
+          }
+        .navstyle
+        {
+            padding-left: 20px;
+        }
+        .navstyle>a
+        {
+            color: antiquewhite;
+            border-radius: 0;
+            border: none;
+        }
+        .navstyle>a:link
+        {
+            background-color: transparent;
+            color:bisque;
+        }
+        .navstyle>a:visited
+        {
+            color: antiquewhite;
+        }
+        .navstyle>a:hover,a:target
+        {
+            background-color:rgba(251, 239, 223,0.2);
+            color:bisque;
+        }
+        .navstyle>a:active
+        {
+            color: antiquewhite;
+            background-color:rgba(251, 239, 223,0.2);
+        }
+        .dd
+        {
+            background-color: rgba(249, 229, 203,0.8);
+            border-radius:0;
+        }
+        .dd>li>a
+        {
+            border-radius: 0;
+            color: rgb(44, 27, 4);
+            background-color: transparent;
+        }
+        .dd>li>a:hover
+        {
+            border-radius: 0;
+            color:rgb(33, 25, 15);
+            background-color: rgba(44,27,4,0.2);
+        }
+        #infoslides
+        {
+            padding: 0;
+        }
+        
+        .carimg::after
+        {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left:0;
+            right:0;
+            background: rgba(0,0,0,0.4);
+        }
+        .carbtn >a:link, a:visited 
+        {
+            background-color: rgba(75, 47, 6, 0.6);
+            border: 1px solid antiquewhite;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .carbtn > a:hover, a:active 
+        {
+            background-color: rgba(245, 217, 180, 0.7);
+            
+            color: rgb(252, 242, 228);
+        }
+        #aboutus
+        {
+            padding-top: 50px;
+        }
+        .aboutustext
+        {
+            font-size:120%;
+        }
+        .cardcol
+        {
+            padding: 30px;
+        }
+        .card-img-top
+        {
+            width: auto;
+            height: 35vh;
+            object-fit:cover;
+        }
+        .curatorow>img
+        {
+            border-radius: 50%;
+            height: auto;
+            width: auto;
+        }
+        .qlinks a 
+        {
+            text-decoration: none;
+            color: rgba(254, 244, 230,0.6);
+        }
+        .qlinks a:hover
+        {
+            text-decoration: underline;
+            color: rgba(255, 239, 218,0.8);
+        }
+        .quicklinks ul
+        {
+            list-style-type: none;
+        }
+        .footer
+        {
+            color: rgba(237, 231, 224,0.4);
+            background-color: black;
+        }
+        .footer h6
+        {
+            color: rgba(249, 229, 203,0.7);
+        }
+        .footercontact h5
+        {
+            color:rgba(249, 229, 203,0.7);
+        }
+        .footercontact pre
+        {
+            color:rgba(254, 244, 230,0.6);
+        }
+        .footertime h5,span
+        {
+            color: rgba(251, 226, 194,0.7);
+        }
+
+        #content
+        {
+            background-color:antiquewhite ;
+        }
+        .figure
+        {
+            padding: 20px;
+        }
+        .figure>img
+        {
+          height: 250px;
+          padding: px;
+          width: auto;
+          display: inline;
+        }
